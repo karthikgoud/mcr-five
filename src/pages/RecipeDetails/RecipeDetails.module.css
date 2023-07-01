@@ -1,0 +1,15 @@
+.detailCont {
+  border: solid;
+  height: 60vh;
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.recipeInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,18 @@
+.cardCont {
+  width: 280px;
+  height: 400px;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 5px;
+}
+
+.cardCont img {
+  width: 100%;
+}
+
+.buttonCont {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}

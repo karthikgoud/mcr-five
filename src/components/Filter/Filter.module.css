@@ -1,0 +1,17 @@
+.filterCont {
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.textInput {
+  padding: 0.5rem 1.5rem;
+}
+
+.inputCont {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

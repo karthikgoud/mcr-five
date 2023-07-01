@@ -1,0 +1,35 @@
+.addModalCont {
+  position: fixed;
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  padding: 1rem;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+.addModalCont input {
+  padding: 0.5rem;
+}
+
+.buttonCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonCont button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonCont button:hover {
+  background-color: cadetblue;
+  color: white;
+}

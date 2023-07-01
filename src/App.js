@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav>
-          <NavLink to="/home">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
         </nav>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/detail/:recipeId" element={<RecipeDetails />} />
         </Routes>
       </header>
